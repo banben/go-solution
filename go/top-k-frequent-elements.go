@@ -1,5 +1,3 @@
-import "sort"
-
 func topKFrequent(nums []int, k int) []int {
 	m := map[int]int{}
 	for _, v := range nums {
